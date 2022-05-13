@@ -3,10 +3,39 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="EtecFlix.Categorias.Comedia"
              Title="APP ETECFLIX - COMÉDIA"
-             BackgroundColor="#2f2f30">
+             BackgroundColor="Black">
 
     <StackLayout Orientation="Vertical">
 
-       
+        <Image x:Name="logo" Style="{ StaticResource LogoNaListaDePosters }" HeightRequest="150" />
+        <Label Text=""/>
+        <Label Text="COMÉDIA" Style="{ StaticResource LabelTextoVermelho }" FontSize="30"/>
+
+        <ScrollView>
+            <Grid Padding="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="250" />
+                    
+                </Grid.RowDefinitions>
+
+                <ImageButton Grid.Row="0" Grid.Column="0"
+                             x:Name="btnjumangi2"
+                             Style="{ StaticResource ButtonsPosters }"
+                             Clicked="Btn_Open_Jumangi2"/>
+
+                
+
+
+
+            </Grid>
+        </ScrollView>
     </StackLayout>
+
+
+
 </ContentPage>

@@ -21,7 +21,10 @@ namespace EtecFlix.Filmes
             logo.Source = ImageSource.FromResource("EtecFlix.Img.netflix.jpg");
             poster.Source = ImageSource.FromResource("EtecFlix.Posters.doutorestranho.jpg");
 
-            sinopse.Text = "Após dois anos espreitando as ruas como Batman, Bruce Wayne se encontra nas profundezas mais sombrias de Gotham City. Com poucos aliados confiáveis, o vigilante solitário se estabelece como a personificação da vingança para a população.";
+            
+
+
+            sinopse.Text = "O aguardado filme trata da jornada do Doutor Estranho rumo ao desconhecido. Além de receber ajuda de novos aliados místicos e outros já conhecidos do público, o personagem atravessa as realidades alternativas incompreensíveis e perigosas do Multiverso para enfrentar um novo e misterioso adversário.";
         }
     }
 }

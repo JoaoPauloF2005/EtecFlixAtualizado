@@ -21,7 +21,7 @@ namespace EtecFlix.Filmes
             logo.Source = ImageSource.FromResource("EtecFlix.Img.netflix.jpg");
             poster.Source = ImageSource.FromResource("EtecFlix.Posters.vingadores.jpg");
 
-            sinopse.Text = "Após dois anos espreitando as ruas como Batman, Bruce Wayne se encontra nas profundezas mais sombrias de Gotham City. Com poucos aliados confiáveis, o vigilante solitário se estabelece como a personificação da vingança para a população.";
+            sinopse.Text = "Após Thanos eliminar metade das criaturas vivas, os Vingadores têm de lidar com a perda de amigos e entes queridos. Com Tony Stark vagando perdido no espaço sem água e comida, Steve Rogers e Natasha Romanov lideram a resistência contra o titã louco.";
         }
     }
 }

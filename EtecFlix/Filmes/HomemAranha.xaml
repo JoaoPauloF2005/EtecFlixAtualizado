@@ -21,7 +21,7 @@
 
             <WebView Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"
                      x:Name="visualizador"
-                     Source="https://www.youtube.com/embed/fbS0efVvkVU"
+                     Source="https://www.youtube.com/embed/ae6w0-kZ3-M"
                      VerticalOptions="FillAndExpand"
                      BackgroundColor="#2f2f30" />
 
@@ -41,11 +41,11 @@
 
                         <StackLayout Grid.Row="0" Grid.Column="1" VerticalOptions="Center">
                             <Label Text="TÍTULO" Style="{ StaticResource LabelTextoVermelho }" />
-                            <Label Text="The Batman" Style="{ StaticResource LabelTextoBranco }" />
+                            <Label Text="Homem Aranha:Sem Volta para Casa" Style="{ StaticResource LabelTextoBranco }" />
                             <Label Text="ANO DE LANÇAMENTO" Style="{ StaticResource LabelTextoVermelho }" />
-                            <Label Text="3 de março de 2022" Style="{ StaticResource LabelTextoBranco }" />
+                            <Label Text="16 de dezembro de 2021" Style="{ StaticResource LabelTextoBranco }" />
                             <Label Text="DIREÇÃO" Style="{ StaticResource LabelTextoVermelho }" />
-                            <Label Text="Matt Reeves" Style="{ StaticResource LabelTextoBranco }" />
+                            <Label Text="Jon Watts" Style="{ StaticResource LabelTextoBranco }" />
                         </StackLayout>
 
                         <StackLayout Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Padding="10" >

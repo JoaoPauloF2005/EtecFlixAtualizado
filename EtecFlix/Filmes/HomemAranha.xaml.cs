@@ -21,7 +21,7 @@ namespace EtecFlix.Filmes
             logo.Source = ImageSource.FromResource("EtecFlix.Img.netflix.jpg");
             poster.Source = ImageSource.FromResource("EtecFlix.Posters.homem_aranha.jpg");
 
-            sinopse.Text = "Após dois anos espreitando as ruas como Batman, Bruce Wayne se encontra nas profundezas mais sombrias de Gotham City. Com poucos aliados confiáveis, o vigilante solitário se estabelece como a personificação da vingança para a população.";
+            sinopse.Text = "O Homem-Aranha precisa lidar com as consequências da sua verdadeira identidade ter sido descoberta.";
         }
     }
 }

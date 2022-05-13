@@ -20,7 +20,7 @@ namespace EtecFlix.Categorias
 
             NavigationPage.SetHasNavigationBar(this, false);
 
-            logo.Source = ImageSource.FromResource("EtecFlix.Img.netflix.jpg");
+            logo.Source = ImageSource.FromResource("EtecFlix.Img.logo.png");
 
             btnBatman.Source = ImageSource.FromResource("EtecFlix.Posters.thebatman.jpg");
             btnDoutorEstranho.Source = ImageSource.FromResource("EtecFlix.Posters.doutorestranho.jpg");

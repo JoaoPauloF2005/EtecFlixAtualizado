@@ -16,7 +16,7 @@ namespace EtecFlix
         {
             InitializeComponent();
 
-            logo.Source = ImageSource.FromResource("EtecFlix.Img.netflix.jpg");
+            logo.Source = ImageSource.FromResource("EtecFlix.Img.logo.png");
 
             NavigationPage.SetHasNavigationBar(this, false);
         }
@@ -62,6 +62,30 @@ namespace EtecFlix
             try
             {
                 await Navigation.PushAsync(new Terror());
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Ops, ocorreu um erro...", ex.Message, "OK");
+            }
+        }
+
+        private async void Btn_Open_Ação(object sender, EventArgs e)
+        {
+            try
+            {
+                await Navigation.PushAsync(new Ação());
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Ops, ocorreu um erro...", ex.Message, "OK");
+            }
+        }
+
+        private async void Btn_Open_Suspense(object sender, EventArgs e)
+        {
+            try
+            {
+                await Navigation.PushAsync(new Suspense());
             }
             catch (Exception ex)
             {
